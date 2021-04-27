@@ -7,11 +7,6 @@ public class BuyAndSellStock {
 		int stocks[] = {1,7,9,8,13,1,3};
 		int min = Integer.MAX_VALUE;
 		int max=0;
-//		for (int i : stocks) {
-//			if(i < min) min = i;
-//			else
-//				max = Math.max(max, i-min);
-//		}
 		int buy=-1,sell=-1;
 		for (int i = 0; i < stocks.length; i++) {
 			if(stocks[i] < min) {

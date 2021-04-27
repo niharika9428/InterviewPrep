@@ -1,12 +1,10 @@
 package com.questions;
 
-import java.util.Stack;
-
 import com.linkedList.LinkedList;
 import com.linkedList.Node;
 
 public class PalindromeLinkedList {
-
+	
 	public static void main(String[] args) {
 		LinkedList l3 = new LinkedList(new Node(1));
 		l3.insert(1);l3.insert(2);

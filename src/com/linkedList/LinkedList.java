@@ -34,6 +34,22 @@ public class LinkedList {
 		return head;
 	}
 
+	public Node insertNode(int data) {
+		if (isEmpty()) {
+			head = new Node(data);
+			tail = head;
+		} else {
+			Node curr = head;
+			while (curr.getNext() != null) {
+				curr = curr.getNext();
+			}
+			Node newNode = new Node(data);
+			curr.setNext(newNode);
+			tail = newNode;
+		}
+		size++;
+		return tail;
+	}
 	
 	public Node insertAtEndWithTail(int data) {
 		if (isEmpty()) {
