@@ -12,7 +12,6 @@ public class SideViewOfBT {
 		if(root == null) return;
 		Queue<TreeNode> q = new LinkedList<TreeNode>();
 		q.add(root);
-		
 		while(!q.isEmpty()) {
 			TreeNode temp = q.poll();
 			System.out.print(temp.val+" ");

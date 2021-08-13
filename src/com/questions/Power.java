@@ -3,7 +3,7 @@ package com.questions;
 public class Power {
 
 	public static void main(String[] args) {
-
+      System.out.println(pow(2, 20));
 	}
 
 	public static double pow(double x, int n) {
